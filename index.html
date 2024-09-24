@@ -7,7 +7,59 @@
     <title>Acme App</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <!-- Start Coding Here -->
-  </body>
+  <footer
+    class="bg-[#F6F6FB] h-[100vh] flex flex-col justify-center items-center"
+  >
+    <div
+      class="section-input w-[1199px] bg-white rounded-3xl pt-[80px] pr-[120px] pb-[80px] pl-[120px] flex flex-col justify-center items-center"
+    >
+      <form class="flex flex-col justify-center items-center gap-[20px]">
+        <h1 class="text-5xl font-bold text-[#1A1A2C]">Get in Touch</h1>
+        <div class="flex flex-col relative right-30 h-[76px]">
+          <label class="text-[16px]" for="Name">Name</label>
+          <input
+            class="border border-[#E0E0ED] rounded-[12px] p-3 w-[584px] hover:border-[#B5A9FF] focus:border-[#5E44FF]"
+            id="Name"
+            type="text"
+            placeholder="John Doe"
+          />
+        </div>
+        <div class="flex flex-col relative right-30 h-[76px]">
+          <label class="text-[16px]" for="Email">Email</label>
+          <input
+            class="border border-[#E0E0ED] rounded-[12px] p-3 w-[589px] hover:border-[#B5A9FF] focus:border-[#5E44FF]"
+            id="Email"
+            type="email"
+            placeholder="john@example.com"
+          />
+        </div>
+        <div class="flex flex-col relative right-30">
+          <label class="text-[16px]" for="Message">Message</label>
+          <input
+            class="border border-[#E0E0ED] rounded-[12px] pt-[3px] pr-[3px] pb-[70px] pl-[3px] w-[589px] hover:border-[#B5A9FF] focus:border-[#5E44FF]"
+            id="Message"
+            type="text"
+            placeholder="Your message..."
+          />
+        </div>
+        <button
+          class="bg-[#1A1A2C] text-white leading-[24px] rounded-2xl px-9 py-4 w-[589px] gap-6 hover:bg-[#5F5F76] focus:bg-[#35354D] focus:ring-[#5F5F76]"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+    <div
+      class="section-footer flex justify-between w-[1199px] relative top-[70px]"
+    >
+      <h1 class="text-16px font-medium">Acme productivity app ©2024</h1>
+      <ul class="flex w-[313px] gap-[37px] text-[16px] font-semibold">
+        <li>FAQ</li>
+        <li>Terms</li>
+        <li>AI Policy</li>
+        <li>Pricing</li>
+      </ul>
+    </div>
+  </footer>
 </html>
